@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1050px;
+}
+
+.flex, .link, .btn, .btn-outline {
+  display: flex;
+}
+
+.between {
+  justify-content: space-between;
+}
+
+.j-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.btn-text, .btn, .btn-outline {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.200000003px;
+}
+
+.btn, .btn-outline {
+  gap: 15px;
+  color: #FFFFFF;
+  padding: 15px 25px;
+  border-radius: 5px;
+  transition: all 0.3s;
+  background-color: #FF685B;
+}
+
+.btn:hover, .btn-outline:hover {
+  background-color: #ff4d3d;
+}
+
+.btn-outline {
+  color: #FF685B;
+  transition: all 0.3s;
+  border: 1px solid #FF685B;
+  background-color: transparent;
+}
+
+.btn-outline:hover {
+  color: #FFFFFF;
+  background-color: #FF685B;
+}
+.btn-outline:hover svg path {
+  fill: #fff;
+}
+
+.btn-radius {
+  border-radius: 37px;
+}
+
+.heading-1 {
+  font-size: 58px;
+  line-height: 80px;
+  letter-spacing: 0.200000003px;
+}
+
+.heading-2 {
+  font-size: 40px;
+  color: #252B42;
+  line-height: 50px;
+  letter-spacing: 0.200000003px;
+}
+
+.heading-3 {
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1000000015px;
+}
+
+.heading-5 {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1000000015px;
+}
+
+.heading-6 {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.200000003px;
+}
+
+.link {
+  gap: 10px;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.200000003px;
+}
+
+.paragraph {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.200000003px;
+}
+
+.small {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.200000003px;
+}/*# sourceMappingURL=global.css.map */
